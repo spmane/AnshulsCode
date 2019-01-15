@@ -16,3 +16,17 @@ for (i = 0; i <500; i++) {
   ellipse(x,y,5,5);
 }
 
+var i;
+for (i = 0; i <500; i++) { 
+  var x =Math.floor(Math.random() * 400) + 1 ;
+  var y =Math.floor(Math.random() * 400) + 1  ;
+  var r=Math.floor(Math.random() * 255) + 1  ;
+  var g=Math.floor(Math.random() * 255) + 1  ;
+  var b=Math.floor(Math.random() * 255) + 1  ;
+ 
+ 
+  var k=Math.floor(Math.random() * 50) + 1  ;
+  var l=Math.floor(Math.random() * 50) + 1  ;
+  fill(r, g, b);
+  ellipse(x,y,k,l);
+}
